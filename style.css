@@ -1,0 +1,137 @@
+nav{
+    display: flex;padding-top: 30pt;padding-left: 50pt;padding-right: 110pt;justify-content: space-between;
+}
+.abc{
+    color:white;font-size: 45pt;
+    animation-name: abc;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes abc{
+from{
+    color:white;
+}
+to{
+    color:crimson;
+}
+
+
+}
+span{
+    color: crimson;
+    animation-name: span;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes span{
+    from{
+        color:crimson;
+    }
+    to{
+        color: white;
+    }
+}
+ul li{
+    display: inline-block;
+    padding:15pt 15pt;font-weight: bold;font-size: 15pt;color: white;
+}
+
+.head{
+    width: 1000pt;height: 700pt;background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0QhNE6DgFD9MhPkPPoLDyBRO85zLqxUoQULGCAqsJXv5jd7BTD62peJnNS6iX2OOkqH8&usqp=CAU);background-size: cover;
+}
+.body{
+    color: white;
+    margin-top: 65pt;
+    margin-left: 90pt;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwS7NSxop3uRjvxEUecyD3L2iGYnYgFaa4Eqs-U5rNN2wxJnN764gOYLcpv1PiGxbm778&usqp=CAU);
+    width: 470pt;
+    height: 270pt;
+    filter: blur(50);
+    filter: drop-shadow(20px 20px 15px #555);
+    background-size: cover;
+    border-radius: 25pt;
+    border:2px solid #555;
+     
+}
+
+    
+
+h3{
+    font-size: 75pt;
+    animation-name: h3;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: white;
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+    padding-left: 5pt;
+}
+@keyframes h3{
+    from{
+        color:  white;
+    }
+    to{
+        color: crimson ;
+        
+    }
+ }
+
+ span{
+    color: crimson;
+    animation-name: span;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ }
+ @keyframes span{
+    from{
+        color: crimson;
+    }
+    to{
+        color: white;
+    }
+ }
+ h2{
+    font-size: 20pt;
+    padding-left: 25pt;
+    animation-name: h2;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-color: crimson;
+ }
+@keyframes h2{
+    0%{
+        width: 40%;
+        visibility:hidden;
+    }
+    100%{
+        width: 95%;
+    }
+}
+@keyframes blink{
+    50%{
+        border-color: transparent;
+    }
+    100%{
+        border-color: black;
+    }
+}
+   h4{
+    font-size: 20pt;padding-left: 25pt;
+   }
+
+ ul.lists{
+    color:black;
+    z-index: 10;
+}
+
+
